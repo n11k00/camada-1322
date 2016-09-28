@@ -120,8 +120,8 @@ package {
     size:0.5em
     
 }
-
-.select {
+/*ver en clase*/
+.select { 
     border-radius: 10px;
     background-color: #00aef3;
     width: 150px;
@@ -132,3 +132,25 @@ package {
     font-weight: bold;
 
 }
+
+.package li ul p{
+    
+    color: #acb0b1;
+    font-family: "raleway", sans-serif;
+    font-size:1.2em; /* ver en clase tamaño y sacar bulletpoint*/
+}
+
+.beforefooter{
+        font-family: "raleway", sans-serif;
+    color: white;
+    background-color: #142e3f;
+    size: 4em;
+    width: 700;
+    padding: 40;
+    font-size: 2em;
+}
+
+.beforefooter span{
+    color: #00aef3; 
+}
+
