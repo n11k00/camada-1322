@@ -1,0 +1,134 @@
+html {
+font-size: 12px  ;  
+
+    
+}
+
+header nav a{
+    
+    font-family: 'open-sans', sans-serif;
+    font-weight:bold;
+    text-decoration: none;
+    color:grey;
+    font-size: 1em ;
+    text-transform:uppercase;
+    
+}
+
+a:hover {
+    color:dodgerblue;
+}
+
+
+.regularupdates {
+    background-image: url("imagenes/indexbanner-bg3.jpg");
+     height: 528px;
+    background-size:cover;
+    background-position: center;
+}
+
+.regularupdates h2{
+    font-family: "raleway", sans-serif;
+    font-weight: bold;
+    font-size: 3.5em ;
+    color:white;
+}
+
+.regularupdates p{
+    font-family: "raleway", sans-serif;
+    font-size: 1.5em ;
+    color: #8f9ba7;
+}
+
+
+.beneficios h3{
+    font-family: 'open-sans', sans-serif;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#3b5158;
+    
+}
+
+.beneficios p{
+    color:#acb0b1;
+    font-size:1.2em;
+    font-family: "open-sans" , sans-serif;
+}
+
+.services {
+    text-align:center;
+}
+
+.services h3{
+    color: #2d3c45;
+    font-size:3em;
+    
+}
+
+.services p{
+    color:#c8c8c8;
+    font-size:1.5em;
+}
+
+
+
+.desctel1 h3{
+    text-align:center;
+    color: #3b5158;
+    font-family:"open-sans", sans-serif;
+    size: 1.4em;
+}
+
+.desctel1 p{
+    font-family: "open-sans", sans-serif;
+    color: #acb0b1;
+    size: 1.2em;
+}
+
+.desctel2 h3{
+    text-align:center;
+    color: #3b5158;
+    font-family:"open-sans", sans-serif;
+    size: 1.4em;
+}
+
+.desctel2 p{
+    font-family: "open-sans", sans-serif;
+    color: #acb0b1;
+    size: 1.2em;
+}
+
+package {
+  text-align:center; 
+  font-family:"raleway", sans-serif;
+}
+
+.package h3{
+ color: #3b5158;
+ text-transform:uppercase;
+ size:1em
+}
+
+.package h2{
+    color: #3b5158;
+    font-weight: bold;
+    font-family: "raleway", sans-serif;
+}
+
+.month p {
+    color: #acb0b1;
+    size:0.5em
+    
+}
+
+.select {
+    border-radius: 10px;
+    background-color: #00aef3;
+    width: 150px;
+    height: 35px;
+    border: 3px solid #00aef3;
+    color: white;
+    font-family: "raleway" , sans-serif;
+    font-weight: bold;
+
+}

@@ -1,0 +1,157 @@
+<!--
+
+<section>: Define una sección en un documento.
+<nav>: Define un bloque que contiene enlaces de navegación, como un menú.
+<article>: Define contenido autónomo que podría existir independientemente del resto del contenido.
+<aside>: Define contenidos vagamente relacionados con el resto del contenido de la página.
+<main>: Define el contenido principal o importante en el documento. Solamente debe existir un elemento <main> en el documento.
+<header>: Define la cabecera de una página o sección.
+<footer>: Define el pie de una página o sección.
+ -->
+
+ <!doctype hmtl>
+<html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+
+    <head> 
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body> 
+        <header>
+            <nav>
+                <img src="imagenes/header-logo.png" />
+                <a class="hover" href="home.html"> Home </a>
+                <a class="hover" href="contact.html"> Contact </a>
+            </nav>
+        </header>
+        <article class="regularupdates">
+            <h2>Regular Updates</h2>
+            <p>Curabitur ultricies elementum mauris eu dapibus dui aliquet mauris euismod nesque a molestie</p>
+            <form>
+            <input type="text" name="search" placeholder="Enter your domain and hit enter"> <input type="button" name="search" value="Search">
+            </form>
+        </article>
+        
+        <section>
+            <div class="beneficios">
+                <h3> Speed Servers</h3>
+                <img id="wid1" src="icons/wid1.png" />
+                <p> Nunc lacina non diam eget efficitur curabitur tirstique diam</p>
+            </div>
+                <div class="separador"> <img src="icons/threedot.png" /> </div>
+             <div class="beneficios">
+                <h3> Hostro Services</h3>
+                 <img id="wid2" src="icons/wid2.png" />
+                <p> Nunc lacina non diam eget efficitur curabitur tirstique diam</p>
+            </div>
+                <div class="separador"> <img src="icons/threedot.png" /> </div>
+             <div class="beneficios">
+                <h3> Live Support</h3>
+                <img id="wid3" src="icons/wid2.png" />
+                <p> Nunc lacina non diam eget efficitur curabitur tirstique diam</p>
+            </div>
+                <div class="separador"> <img src="icons/threedot.png" /> </div>
+             <div class="beneficios">
+                <h3> Get Domains</h3>
+                <img id="wid4" src="icons/wid3.png" />
+                <p> Nunc lacina non diam eget efficitur curabitur tirstique diam</p>
+            </div>
+        </section>
+        
+        <section class="services">
+            <h3> Hostro Services</h3>
+            <p> Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+        </section>
+        
+        <section>
+            <div class="desctel1">
+                <h3>Retina ready</h3>
+                <img src="icons/ser1.png" />
+                <p> Maecenas nunc tellus, cursos euismod velit eget, auctor euismod</p>
+            </div>
+            <div class="desctel1">
+                <h3>Easy Customize</h3>
+                <img src="icons/ser2.png" />
+                <p> Maecenas nunc tellus, cursos euismod velit eget, auctor euismod</p>
+            <div class="desctel1">
+                <h3 class="titulotel"> Pixel Perfect </h3>
+                <img src="icons/ser3.png" />
+                <p class="partel"> Maecenas nunc tellus, cursos euismod velit eget, auctor euismod</p>
+            </div>
+            </div>
+        <div id="telefono"> 
+                <img src="imagenes/iphone2.png" />
+        </div> 
+            <div class="desctel2">
+                <img src="icons/ser4.png" />
+                <h3>Unlimited colors </h3>
+                <p> Maecenas nunc tellus, cursos euismod velit eget, auctor euismod </p>
+            </div>
+                        <div class="desctel2">
+                <img src="icons/ser5.png" />
+                <h3> Features </h3>
+                <p> Maecenas nunc tellus, cursos euismod velit eget, auctor euismod </p>
+            </div>
+                        <div class="desctel2">
+                <img src="icons/ser6.png" />
+                <h3> Support Today </h3>
+                <p> Maecenas nunc tellus, cursos euismod velit eget, auctor euismod </p>
+            </div>
+        </section>
+        <section> 
+            <div class="services"> 
+                <h3> Pricing tables</h3> 
+                <p> Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus </p>
+            </div>  
+            <div class="package">
+                <h3> Small Package</h3>
+                <h2> $15.99 <span>/month</span></h2>
+                <li>
+                    <ul> <p>Hard drive, GB  <span> 2 </span> </p> </ul>
+                    <ul> <p> Transfer, GB <span>1</span> </p></ul>
+                    <ul> <p> Data bases <span>1</span></p></ul>
+                    <ul> <p> Dashboard <span> 1 </span></p></ul>
+                </li>
+                <form class="select"> <input type="button" value="Select Plan"> </form>
+            </div>
+            <div class="package">
+                <h3> Normal Package </h3>
+                <h2> $49.99 <span>/month</span></h2>
+                <li>
+                    <ul> <p>Hard drive, GB  <span> 5 </span> </p> </ul>
+                    <ul> <p> Transfer, GB <span>2</span> </p></ul>
+                    <ul> <p> Data bases <span>2</span></p></ul>
+                    <ul> <p> Dashboard <span> 2 </span></p></ul>
+                </li>
+                 <form class="select"> <input type="button" value="Select Plan"> </form>
+            </div>
+            <div class="package">
+                <h3> Big Package </h3>
+                <h2> $99.99 <span>/month</span></h2>
+                <li>
+                    <ul> <p>Hard drive, GB  <span> 10 </span> </p> </ul>
+                    <ul> <p> Transfer, GB <span>3</span> </p></ul>
+                    <ul> <p> Data bases <span>3</span></p></ul>
+                    <ul> <p> Dashboard <span> 3 </span></p></ul>
+                </li>
+                 <form class="select"> <input type="button" value="Select Plan"> </form>
+            </div> 
+            <div class="package">
+                <h3> Best Package </h3>
+                <h2> $199.99 <span class="month"> /month </span></h2>
+                <li>
+                    <ul> <p>Hard drive, GB  <span> 15 </span> </p> </ul>
+                    <ul> <p> Transfer, GB <span>4</span> </p></ul>
+                    <ul> <p> Data bases <span>4</span></p></ul>
+                    <ul> <p> Dashboard <span> 4 </span></p></ul>
+                </li>
+                <form class="select"> <input type="button" value="Select Plan"> </form>
+            </div>
+        </section> 
+        <footer></footer>
+    
+
+</body>
+</html>
