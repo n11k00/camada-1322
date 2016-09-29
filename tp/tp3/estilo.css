@@ -57,6 +57,7 @@ a:hover {
 
 .services {
     text-align:center;
+    padding:30;
 }
 
 .services h3{
@@ -66,6 +67,23 @@ a:hover {
 }
 
 .services p{
+    color:#c8c8c8;
+    font-size:1.5em;
+}
+
+.services1 {
+    text-align:center;
+    background-image: url("pricing-bg.jpg");
+    padding:30;
+}
+
+.services1 h3{
+    color: #2d3c45;
+    font-size:3em;
+    
+}
+
+.services1 p{
     color:#c8c8c8;
     font-size:1.5em;
 }
@@ -141,16 +159,31 @@ package {
 }
 
 .beforefooter{
-        font-family: "raleway", sans-serif;
+    font-family: "raleway", sans-serif;
     color: white;
     background-color: #142e3f;
     size: 4em;
-    width: 700;
     padding: 40;
     font-size: 2em;
 }
 
 .beforefooter span{
-    color: #00aef3; 
+    color: #00aef3;
+    font-weight: bold;
+}
+
+footer {
+    background-color:091722;
+    padding:10;
+    color:white;
+    
+}
+
+footer p {
+    text-align:left;
+}
+
+footer a{
+    text-align:right; /*ver esto*/
 }
 
